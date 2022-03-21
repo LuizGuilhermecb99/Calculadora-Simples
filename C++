@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int n1,n2,S;
+
+    cout << " Bem vindo a Calculadora, Digite o primeiro numero : " << "\n";
+    cin >> n1;
+
+    cout << " Digite o segundo numero : " << "\n";
+    cin >> n2;
+
+    S=n1+n2;
+
+    cout << "A Operacao entre " << n1 << " e " << n2 << " e igual a : " << S << endl;
+
+    return 0;
+}
